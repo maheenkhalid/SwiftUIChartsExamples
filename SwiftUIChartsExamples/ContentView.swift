@@ -7,8 +7,8 @@ struct ContentView: View {
                 NavigationLink(destination: BarChart()) {
                     Text("Bar Chart")
                 }
-                NavigationLink(destination: BarChart()) {
-                    Text("Pie Chart")
+                NavigationLink(destination: LineChart()) {
+                    Text("Line Chart")
                 }
             }
         }

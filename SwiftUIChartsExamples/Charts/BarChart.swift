@@ -21,6 +21,7 @@ struct BarChart: View {
                 x: .value("Name", studentScore.name),
                 y: .value("Score", studentScore.score))
         }
+        .frame(height: 300)
     }
 }
 
